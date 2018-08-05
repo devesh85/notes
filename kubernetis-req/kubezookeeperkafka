@@ -1,0 +1,14 @@
+ git clone git@github.com:Yolean/kubernetes-kafka.git
+ 
+ https://technology.amis.nl/2018/04/19/15-minutes-to-get-a-kafka-cluster-running-on-kubernetes-and-start-producing-and-consuming-from-a-node-application/
+   513  kubectl apply -f ./configure/minikube-storageclass-broker.yml
+  514  kubectl apply -f ./configure/minikube-storageclass-zookeeper.yml
+ kubectl apply -f 00-namespace.yml
+  549  kubectl apply -f ./zookeeper
+  550  kubectl apply -f ./kafka
+  551  kubectl apply -f ./outside-services
+  552  kubectl apply -f ./yahoo-kafka-manager
+  553  mikube dashboard
+  554  minikube dashboard
+  555  minikube stop
+  556  kubectl get nodes
