@@ -12,3 +12,7 @@
   554  minikube dashboard
   555  minikube stop
   556  kubectl get nodes
+
+
+another one 
+https://github.com/kow3ns/kubernetes-kafka/blob/master/manifests/README.md
